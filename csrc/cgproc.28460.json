@@ -1,0 +1,101 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "BCDtester": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "ChipInterface": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "SevenSegtester": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "SevenSegmentDigit": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        }
+    },
+    "CompUnits": {
+        "zzMra_d": {
+            "bytes": 11208,
+            "mod": "SevenSegtester",
+            "archive": "archive.10/_28460_archive_1.a",
+            "out": "zzMra_d.o",
+            "mode": 4
+        },
+        "VHM6x_d": {
+            "bytes": 16755,
+            "mod": "ChipInterface",
+            "archive": "archive.10/_28460_archive_1.a",
+            "out": "VHM6x_d.o",
+            "mode": 4
+        },
+        "reYIK_d": {
+            "bytes": 29004,
+            "mod": "std",
+            "archive": "archive.10/_28460_archive_1.a",
+            "out": "reYIK_d.o",
+            "mode": 4
+        },
+        "amcQw_d": {
+            "bytes": 9065,
+            "mod": "...MASTER...",
+            "archive": "archive.10/_28460_archive_1.a",
+            "out": "amcQw_d.o",
+            "mode": 4
+        },
+        "CTpFe_d": {
+            "bytes": 11031,
+            "mod": "BCDtester",
+            "archive": "archive.10/_28460_archive_1.a",
+            "out": "CTpFe_d.o",
+            "mode": 4
+        },
+        "wDpck_d": {
+            "bytes": 14930,
+            "mod": "SevenSegmentDigit",
+            "archive": "archive.10/_28460_archive_1.a",
+            "out": "wDpck_d.o",
+            "mode": 4
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.10/_28460_archive_1.a",
+            "size": 91993,
+            "objects": [
+                [
+                    "amcQw_d.o",
+                    9065
+                ],
+                [
+                    "reYIK_d.o",
+                    29004
+                ],
+                [
+                    "VHM6x_d.o",
+                    16755
+                ],
+                [
+                    "CTpFe_d.o",
+                    11031
+                ],
+                [
+                    "zzMra_d.o",
+                    11208
+                ],
+                [
+                    "wDpck_d.o",
+                    14930
+                ]
+            ]
+        }
+    ]
+}

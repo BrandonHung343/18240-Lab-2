@@ -1,6 +1,6 @@
 psSimBaseName                      	simv
 psLogFileName                      	NULL
-pDaiDir                            	/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2/simv.daidir
+pDaiDir                            	/afs/ece.cmu.edu/usr/sunghol/Private/lab2/18240-Lab-2/simv.daidir
 destPath                           	csrc/
 fSharedMaster                      	0
 hsMainFileCount                    	0

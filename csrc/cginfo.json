@@ -1,61 +1,67 @@
 {
-    "Misc": {
-        "csrc": "csrc",
-        "cwd": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2",
-        "archive_dir": "archive.9",
-        "csrc_abs": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2/csrc",
-        "daidir": "simv.daidir",
-        "daidir_abs": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2/simv.daidir",
-        "default_output_dir": "csrc"
-    },
+    "PEModules": [],
     "MlibObjs": {},
-    "CurCompileUdps": {},
-    "LVLData": [
-        "SIM"
-    ],
     "PrevCompiledModules": {
-        "BCDtester": {
-            "CTpFe_d": {
-                "bytes": 11031,
-                "mod": "BCDtester",
-                "mode": 4,
-                "archive": "archive.9/_prev_archive_1.a",
-                "out": "CTpFe_d.o"
+        "SevenSegtester": {
+            "zzMra_d": {
+                "mod": "SevenSegtester",
+                "bytes": 11208,
+                "archive": "archive.10/_28460_archive_1.a",
+                "out": "zzMra_d.o",
+                "mode": 4
             }
         },
         "std": {
             "reYIK_d": {
-                "bytes": 29004,
                 "mod": "std",
+                "bytes": 29004,
                 "mode": 4,
-                "archive": "archive.9/_prev_archive_1.a",
-                "out": "reYIK_d.o"
+                "out": "reYIK_d.o",
+                "archive": "archive.10/_28460_archive_1.a"
             }
         },
         "...MASTER...": {
             "amcQw_d": {
-                "bytes": 7987,
                 "mod": "...MASTER...",
+                "bytes": 9654,
+                "archive": "archive.10/_28460_archive_1.a",
                 "out": "amcQw_d.o",
+                "mode": 4
+            }
+        },
+        "SevenSegmentDigit": {
+            "wDpck_d": {
+                "mod": "SevenSegmentDigit",
+                "bytes": 14930,
+                "archive": "archive.10/_28460_archive_1.a",
+                "out": "wDpck_d.o",
+                "mode": 4
+            }
+        },
+        "BCDtester": {
+            "CTpFe_d": {
+                "mod": "BCDtester",
+                "bytes": 11031,
                 "mode": 4,
-                "archive": "archive.9/_261315_archive_1.a"
+                "out": "CTpFe_d.o",
+                "archive": "archive.10/_28460_archive_1.a"
             }
         }
     },
     "NameTable": {
-        "BCDtester": [
-            "BCDtester",
-            "CTpFe",
-            "module"
-        ],
         "std": [
             "std",
             "reYIK",
             "module"
         ],
-        "SevenSegmentControl": [
-            "SevenSegmentControl",
-            "pjySW",
+        "BCDtester": [
+            "BCDtester",
+            "CTpFe",
+            "module"
+        ],
+        "ChipInterface": [
+            "ChipInterface",
+            "VHM6x",
             "module"
         ],
         "SevenSegtester": [
@@ -75,22 +81,36 @@
         ]
     },
     "CompileStrategy": "fullobj",
-    "SIMBData": {
-        "out": "amcQwB.o",
-        "bytes": 59018
-    },
-    "stat": {
-        "nMops": 1835
-    },
+    "LVLData": [
+        "SIM"
+    ],
+    "CurCompileUdps": {},
+    "CompileProcesses": [
+        "cgproc.28460.json"
+    ],
     "CurCompileModules": [
         "...MASTER...",
-        "SevenSegmentControl",
+        "std",
+        "ChipInterface",
+        "BCDtester",
         "SevenSegtester",
         "SevenSegmentDigit"
     ],
-    "PEModules": [],
-    "CompileProcesses": [
-        "cgproc.261315.json"
-    ],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 59672
+    },
+    "Misc": {
+        "cwd": "/afs/ece.cmu.edu/usr/sunghol/Private/lab2/18240-Lab-2",
+        "csrc_abs": "/afs/ece.cmu.edu/usr/sunghol/Private/lab2/18240-Lab-2/csrc",
+        "csrc": "csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/afs/ece.cmu.edu/usr/sunghol/Private/lab2/18240-Lab-2/simv.daidir",
+        "default_output_dir": "csrc",
+        "archive_dir": "archive.10"
+    },
+    "stat": {
+        "nMops": 3133
+    },
     "CompileStatus": "Successful"
 }

@@ -1,17 +1,17 @@
 {
-    "BCDtester": [
-        "BCDtester",
-        "CTpFe",
-        "module"
-    ],
     "std": [
         "std",
         "reYIK",
         "module"
     ],
-    "SevenSegmentControl": [
-        "SevenSegmentControl",
-        "pjySW",
+    "BCDtester": [
+        "BCDtester",
+        "CTpFe",
+        "module"
+    ],
+    "ChipInterface": [
+        "ChipInterface",
+        "VHM6x",
         "module"
     ],
     "SevenSegtester": [

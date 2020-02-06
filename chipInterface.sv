@@ -21,8 +21,8 @@ module ChipInterface
                            .BCD3(l3),
                            .BCD2(l2),
                            .BCD1(l1),
-                           .BCD0(l0)
-                           .turn_on(SW[17:10]);
+                           .BCD0(l0),
+                           .turn_on(SW[17:10]));
 
    assign l7 = (KEY == 0) ? SW[3:0] : SW[7:4];
    assign l6 = (KEY == 1) ? SW[3:0] : SW[7:4];
