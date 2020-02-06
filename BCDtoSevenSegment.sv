@@ -54,5 +54,28 @@ module BCDtoSevenSegment
     end
 
 endmodule: BCDtoSevenSegment
+
+module BCDtester
+  (input logic [6:0] segment,
+   output logic [3:0] bcd);
+
+   // BCDtoSevenSegment seggie (.bcd, .segment);
+
+   initial begin
+   $monitor($time,, 
+            "bcd3 = %b, bcd2 = %b, bcd1 = %b, bcd0 = %b, \n\n\
+             s6 = %b, s5 = %b, s4 = %b, s3 = %b, s2 = %b, s1 = %b, s0 = %b \n",
+             bcd[3], bcd[2], bcd[1], bcd[0], segment[6], 
+             segment[5], segment[4], 
+             segment[3], segment[2], segment[1], segment[0]);
+   for (int i = 0; i < 11; i++) 
+     begin
+       {bcd[3], bcd[2], bcd[1], bcd[0]} = i;
+       #1;
+     end
+   end 
+endmodule: BCDtester
+       
+   
      
    
