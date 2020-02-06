@@ -2,7 +2,7 @@
 
 module BCDtoSevenSegment
   (input logic [3:0] bcd,
-   output logic [6:0] segment),
+   output logic [6:0] segment);
 
    always_comb begin
      unique casez ({bcd[3], bcd[2], bcd[1], bcd[0]})
@@ -49,7 +49,8 @@ module BCDtoSevenSegment
        default: begin 
                   {segment[6], segment[5], segment[4], segment[3], 
                    segment[2], segment[1], segment[0]} = 255;
-                end    
+                end
+       endcase    
     end
 
 endmodule: BCDtoSevenSegment

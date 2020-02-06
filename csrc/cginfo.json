@@ -1,0 +1,50 @@
+{
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "BCDtoSevenSegment": [
+            "BCDtoSevenSegment",
+            "kuSVi",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "PEModules": [],
+    "stat": {
+        "nMops": 908
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "BCDtoSevenSegment"
+    ],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 58428
+    },
+    "CompileStatus": "Successful",
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileProcesses": [
+        "cgproc.238901.json"
+    ],
+    "Misc": {
+        "daidir": "simv.daidir",
+        "cwd": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2",
+        "csrc_abs": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2/csrc",
+        "csrc": "csrc",
+        "default_output_dir": "csrc",
+        "daidir_abs": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2/simv.daidir",
+        "archive_dir": "archive.0"
+    }
+}
