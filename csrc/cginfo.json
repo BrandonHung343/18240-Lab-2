@@ -1,0 +1,93 @@
+{
+    "MlibObjs": {},
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "system"
+    ],
+    "PrevCompiledModules": {
+        "BCDtester": {
+            "CTpFe_d": {
+                "mod": "BCDtester",
+                "bytes": 11031,
+                "mode": 4,
+                "archive": "archive.8/_prev_archive_1.a",
+                "out": "CTpFe_d.o"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "mod": "std",
+                "bytes": 29004,
+                "mode": 4,
+                "archive": "archive.8/_prev_archive_1.a",
+                "out": "reYIK_d.o"
+            }
+        },
+        "system": {
+            "gdAaG_d": {
+                "mod": "system",
+                "bytes": 17647,
+                "out": "gdAaG_d.o",
+                "mode": 4,
+                "archive": "archive.8/_254958_archive_1.a"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "mod": "...MASTER...",
+                "bytes": 7987,
+                "out": "amcQw_d.o",
+                "mode": 4,
+                "archive": "archive.8/_254958_archive_1.a"
+            }
+        }
+    },
+    "CompileStrategy": "fullobj",
+    "NameTable": {
+        "BCDtester": [
+            "BCDtester",
+            "CTpFe",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "system": [
+            "system",
+            "gdAaG",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 58826
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "Misc": {
+        "archive_dir": "archive.8",
+        "cwd": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2",
+        "csrc": "csrc",
+        "default_output_dir": "csrc",
+        "daidir_abs": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2/simv.daidir",
+        "daidir": "simv.daidir",
+        "csrc_abs": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2/csrc"
+    },
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.254958.json"
+    ],
+    "stat": {
+        "nMops": 1069
+    },
+    "CompileStatus": "Successful"
+}
