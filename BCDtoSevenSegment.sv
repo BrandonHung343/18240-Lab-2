@@ -52,7 +52,18 @@ module BCDtoSevenSegment
                 end
        endcase    
     end
-
 endmodule: BCDtoSevenSegment
-     
-   
+module SevenSegmentDigit
+  (input logic [3:0] bcd,
+   output logic [6:0] segment,
+   input logic blank);
+  
+  logic [6:0] decoded;
+  
+  BCDtoSevenSegment b2ss(.bcd(bcd), .segment(decoded));
+  
+  assign {segment[6], segment[5], segment[4], segment[3], 
+                   segment[2], segment[1], segment[0]} = blank ? 
+                   {decoded[6], decoded[5], decoded[4], decoded[3], 
+                   decoded[2], decoded[1], decoded[0]} : 7'b1111111;
+endmodule: SevenSegmentDigit   
