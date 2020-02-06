@@ -9,9 +9,19 @@
         "reYIK",
         "module"
     ],
-    "system": [
-        "system",
-        "gdAaG",
+    "SevenSegmentControl": [
+        "SevenSegmentControl",
+        "pjySW",
+        "module"
+    ],
+    "SevenSegtester": [
+        "SevenSegtester",
+        "zzMra",
+        "module"
+    ],
+    "SevenSegmentDigit": [
+        "SevenSegmentDigit",
+        "wDpck",
         "module"
     ],
     "...MASTER...": [

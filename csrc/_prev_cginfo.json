@@ -1,53 +1,58 @@
 {
     "MlibObjs": {},
-    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "system"
+    ],
     "PrevCompiledModules": {
+        "BCDtester": {
+            "CTpFe_d": {
+                "mod": "BCDtester",
+                "bytes": 11031,
+                "mode": 4,
+                "archive": "archive.8/_prev_archive_1.a",
+                "out": "CTpFe_d.o"
+            }
+        },
         "std": {
             "reYIK_d": {
-                "bytes": 29004,
                 "mod": "std",
-                "out": "reYIK_d.o",
+                "bytes": 29004,
                 "mode": 4,
-                "archive": "archive.7/_prev_archive_1.a"
+                "archive": "archive.8/_prev_archive_1.a",
+                "out": "reYIK_d.o"
             }
         },
         "system": {
             "gdAaG_d": {
-                "bytes": 17699,
                 "mod": "system",
-                "mode": 4,
+                "bytes": 17647,
                 "out": "gdAaG_d.o",
-                "archive": "archive.7/_254549_archive_1.a"
+                "mode": 4,
+                "archive": "archive.8/_254958_archive_1.a"
             }
         },
         "...MASTER...": {
             "amcQw_d": {
-                "bytes": 7987,
                 "mod": "...MASTER...",
-                "mode": 4,
+                "bytes": 7987,
                 "out": "amcQw_d.o",
-                "archive": "archive.7/_254549_archive_1.a"
-            }
-        },
-        "BCDtester": {
-            "CTpFe_d": {
-                "bytes": 11031,
-                "mod": "BCDtester",
                 "mode": 4,
-                "out": "CTpFe_d.o",
-                "archive": "archive.7/_prev_archive_1.a"
+                "archive": "archive.8/_254958_archive_1.a"
             }
         }
     },
+    "CompileStrategy": "fullobj",
     "NameTable": {
-        "std": [
-            "std",
-            "reYIK",
-            "module"
-        ],
         "BCDtester": [
             "BCDtester",
             "CTpFe",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
             "module"
         ],
         "system": [
@@ -61,33 +66,28 @@
             "module"
         ]
     },
-    "CurCompileUdps": {},
-    "CompileProcesses": [
-        "cgproc.254549.json"
-    ],
     "SIMBData": {
         "out": "amcQwB.o",
         "bytes": 58826
     },
-    "Misc": {
-        "cwd": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2",
-        "csrc": "csrc",
-        "csrc_abs": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2/csrc",
-        "daidir": "simv.daidir",
-        "daidir_abs": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2/simv.daidir",
-        "archive_dir": "archive.7",
-        "default_output_dir": "csrc"
-    },
-    "CurCompileModules": [
-        "...MASTER...",
-        "system"
-    ],
-    "CompileStatus": "Successful",
     "LVLData": [
         "SIM"
     ],
+    "Misc": {
+        "archive_dir": "archive.8",
+        "cwd": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2",
+        "csrc": "csrc",
+        "default_output_dir": "csrc",
+        "daidir_abs": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2/simv.daidir",
+        "daidir": "simv.daidir",
+        "csrc_abs": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-2/csrc"
+    },
     "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.254958.json"
+    ],
     "stat": {
-        "nMops": 1054
-    }
+        "nMops": 1069
+    },
+    "CompileStatus": "Successful"
 }
