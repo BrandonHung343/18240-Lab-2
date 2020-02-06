@@ -53,7 +53,6 @@ module BCDtoSevenSegment
        endcase    
     end
 endmodule: BCDtoSevenSegment
-<<<<<<< HEAD
 
 module BCDtester
   (input logic [6:0] segment,
@@ -76,10 +75,6 @@ module BCDtester
    end 
 endmodule: BCDtester
        
-   
-     
-   
-=======
 module SevenSegmentDigit
   (input logic [3:0] bcd,
    output logic [6:0] segment,
@@ -94,4 +89,3 @@ module SevenSegmentDigit
                    {decoded[6], decoded[5], decoded[4], decoded[3], 
                    decoded[2], decoded[1], decoded[0]} : 7'b1111111;
 endmodule: SevenSegmentDigit   
->>>>>>> 2f405fd25c206821d7ab4c068232aa22f72c25ff
