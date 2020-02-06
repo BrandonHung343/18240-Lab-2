@@ -24,12 +24,12 @@ module ChipInterface
                            .BCD0(l0)
                            .turn_on(SW[17:10]);
 
-   assign l7 = (KEY == 7) ? SW[3:0] : SW[7:4];
-   assign l6 = (KEY == 6) ? SW[3:0] : SW[7:4];
-   assign l5 = (KEY == 5) ? SW[3:0] : SW[7:4];
-   assign l4 = (KEY == 4) ? SW[3:0] : SW[7:4];
-   assign l3 = (KEY == 3) ? SW[3:0] : SW[7:4];
-   assign l2 = (KEY == 2) ? SW[3:0] : SW[7:4];
-   assign l1 = (KEY == 1) ? SW[3:0] : SW[7:4];
-   assign l0 = (KEY == 0) ? SW[3:0] : SW[7:4];
+   assign l7 = (KEY == 0) ? SW[3:0] : SW[7:4];
+   assign l6 = (KEY == 1) ? SW[3:0] : SW[7:4];
+   assign l5 = (KEY == 2) ? SW[3:0] : SW[7:4];
+   assign l4 = (KEY == 3) ? SW[3:0] : SW[7:4];
+   assign l3 = (KEY == 4) ? SW[3:0] : SW[7:4];
+   assign l2 = (KEY == 5) ? SW[3:0] : SW[7:4];
+   assign l1 = (KEY == 6) ? SW[3:0] : SW[7:4];
+   assign l0 = (KEY == 7) ? SW[3:0] : SW[7:4];
 endmodule: ChipInterface
