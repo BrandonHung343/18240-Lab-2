@@ -4,7 +4,7 @@ module ChipInterface
    input logic [17:0] SW,
    input logic [2:0] KEY);
 
-   logic [3:0] l7, l6, l5, l4, l3, l2, l1, l0;
+   logic [3:0] l7, l6, l5, l5, l4, l3, l2, l1, l0;
    
    SevenSegmentControl ssc(.HEX7(HEX7),
                            .HEX6(HEX6),
